@@ -202,6 +202,43 @@ airdropper contract.</li>
       image: "/skylinetravel-dashboard.webp",
     },
     {
+      title: "Skyline Mimarlik",
+      active: true,
+      description:
+        "A platform for showcasing skyline's architectural projects and services.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "TailwindCSS",
+        "Shadcn UI",
+        "next-intl",
+        "framer-motion",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://skyline-mimarlik.vercel.app/en",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/skyline-mimarlik.webp",
+    },
+    {
+      title: "Ravnaq Store",
+      active: true,
+      description:
+        "Ravnaq Store is a luxury home decor brand that offers a wide range of products including tea sets, decorative products, and serving stands.",
+      technologies: ["Next.js", "Typescript", "TailwindCSS", "Shadcn UI"],
+      links: [
+        {
+          type: "Website",
+          href: "https://ravnaq.vercel.app/en",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/ravnaq.webp",
+    },
+    {
       title: "Skyline Real Estate",
       active: true,
       description:
