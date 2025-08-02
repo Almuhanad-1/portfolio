@@ -7,29 +7,45 @@ export const DATA = {
   url: "https://almuhanad.vercel.app/",
   location: "Istanbul, Turkiye",
   locationLink: "https://www.google.com/maps/place/istanbul",
-  description: "Software Engineer | Full-Stack Developer | Web3 Developer",
+  description: "Software Engineer | Full-Stack Web Developer",
   summary:
-    "With a love for creating dynamic and engaging applications, I bring over 3 years of experience as a full-stack developer focused on crafting seamless Web2 experiences and expanding into Web3. I'm always on the lookout for new tools, best practices, and the latest tech to enhance my work.",
+    "With a love for creating dynamic and engaging applications, I bring over 3 years of experience as a full-stack web developer focused on crafting seamless Web2 experiences and expanding into Web3. In recent projects, I've also built applications integrated with AI — leveraging tools like OpenAI and Gemini to power intelligent features such as smart assistants, content generation, and automated workflows. I'm always on the lookout for new tools, best practices, and the latest tech to enhance my work and build future-ready solutions.",
   avatarUrl: "/me.jpeg",
   skills: [
-    "React",
+    // Programming Languages
+    "C",
+    "C++",
+    "JavaScript",
+    "TypeScript",
+    "Python",
+    "Solidity",
+
+    // Frontend
+    "HTML",
+    "CSS",
     "Next.js",
+    "React",
+    "Tailwind CSS",
+    "Shadcn UI",
     "Angular",
+    "React Native",
     "Svelte",
     "SvelteKit",
-    "Typescript",
-    "Node.js",
+
+    // Backend
     "Express.js",
-    "Python",
-    "Java",
-    "C++",
-    "MySql",
-    "MongoDB",
     "Firebase",
+    "MongoDB",
+    "MySQL",
+    "Node.js",
     "Supabase",
-    "Solidity",
-    "Web3",
+
+    // Web3
+    "Ethers.js",
     "Hardhat",
+    "RainbowKit",
+    "Wagmi",
+    "Web3.js",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -64,16 +80,20 @@ export const DATA = {
       company: "Skyline Holdings",
       href: "",
       badges: [],
-      location: "Istanbul . Turkey",
+      location: "Turkey",
       title: "Frontend Web Developer",
       logoUrl: "/skylineholding.webp",
       start: "Jan 2024",
-      end: "present",
+      end: "Mar 2025",
       description: `
       <ul>
-      <li>Collaborated with a team of UI/UX designers and backend developers to build web applications.</li>
-      <li>Followed Figma designs meticulously to ensure the application matched the design specifications.</li>
-      <li>Developed and maintained multiple web applications over the past year.</li>
+        <li>Engineered and launched 13+ web applications from scratch, including B2B dashboards, e-commerce platforms, real-estate portals, tourism booking systems, and high-converting landing pages.</li>
+        <li>Engineered scalable frontend architectures using React, Next.js, Tailwind CSS, TypeScript, and Shadcn UI.</li>
+        <li>Implemented major features including authentication flows, complex form systems, analytics dashboards, payment gateways, and SEO-optimized pages.</li>
+        <li>Integrated RESTful APIs and collaborated with backend teams, reducing integration time by 30% and ensuring 95%+ API success rate.</li>
+        <li>Improved average page load speed by 40% and achieved 90+ Lighthouse performance scores across all major applications.</li>
+        <li>Contributed to system analysis and technical design discussions, shaping project planning and architecture decisions.</li>
+        <li>Translated detailed Figma designs into pixel-perfect, production-ready user interfaces.</li>
       </ul>
       `,
     },
@@ -82,22 +102,18 @@ export const DATA = {
       badges: [],
       href: "",
       location: "Switzerland . Remote",
-      title: "Full Stack Web3 Developer (Internship)",
+      title: "Full Stack Web3 Developer",
       logoUrl: "/style.png",
       start: "Feb 2024",
       end: "May 2024",
       description: `
       <ul>
-<li>Created a customized ERC-20 token with built-in distribution logic upon
-deployment.</li>
-<li>Edited and adapted a vesting-tokens dapp to seamlessly operate on a new
-blockchain chain.</li>
-<li>Deployed an airdropper contract, streamlining the efficient distribution of
-tokens.</li>
-<li>Collaborated with cross-functional team.</li>
-<li>Generated detailed documentation for ERC-20 token, vesting tokens dapp, and
-airdropper contract.</li>
-</ul>
+        <li>Created a customized ERC-20 token with built-in distribution logic upon deployment.</li>
+        <li>Edited and adapted a vesting-tokens dapp to seamlessly operate on a new chain.</li>
+        <li>Deployed an airdropper smart contract to streamline token distribution.</li>
+        <li>Collaborated with a cross-functional team across development, business, and blockchain domains.</li>
+        <li>Generated detailed documentation for ERC-20 token, vesting tokens dapp, and airdropper contract.</li>
+      </ul>
       `,
     },
     {
@@ -105,34 +121,37 @@ airdropper contract.</li>
       href: "",
       badges: [],
       location: "Remote",
-      title: "Full Stack Web Developer (Internship)",
+      title: "Full Stack Web Developer",
       logoUrl: "/cpp.jpeg",
       start: "Aug 2023",
       end: "Jan 2024",
-      description: `<ul>
-<li>Developed a secure web store with Binance and PayPal integration.</li>
-<li>Led the creation of an e-commerce platform using Next.js and Firebase.</li>
-<li>Innovated a Telegram bot for real-time job listings updates.</li>
-<li>Revamped a SaaS app with SvelteKit, Supabase, and database migration.</li>
-<li>Created a Chrome extension that helps turning any phone number in a page to a whatsapp link.</li>
-<li>Integrated web components for modular and scalable applications.</li>
-</ul>`,
+      description: `
+      <ul>
+        <li>Built a secure web store with Binance and PayPal integrations.</li>
+        <li>Created a full e-commerce platform using Next.js and Firebase.</li>
+        <li>Developed a Telegram bot for real-time job listing updates.</li>
+        <li>Revamped a SaaS app with SvelteKit and Supabase, increasing system performance by 25% and cutting database response times by 40%.</li>
+        <li>Created a Chrome extension to turn any phone number on a webpage into a WhatsApp link.</li>
+        <li>Integrated modular web components to enhance scalability and maintainability.</li>
+      </ul>`,
     },
     {
       company: "Youthink Academy",
       href: "https://www.youthink.la",
       badges: [],
-      location: "Istanbul, Turkey",
+      location: "Turkey",
       title: "Teaching Assistant & Full Stack Developer",
       logoUrl: "/youthink.jpeg",
       start: "Jul 2022",
       end: "Feb 2023",
       description: `
       <ul>
-<li>Provided support to more than 60 students.</li>
-<li>Provided tech mentorship and support for students to build websites and applications.</li>
-<li>My tasks vary in nature frequently. On a given day, I perform code reviews, have one-on-one meetings with students who need extra help, give lectures on new topics, live-code examples, and help coach interpersonal skills.</li>
-  </ul>`,
+        <li>Mentored and supported over 60 students in building websites and applications.</li>
+        <li>Provided technical guidance through code reviews, live coding sessions, and lectures on new topics.</li>
+        <li>Conducted one-on-one meetings to provide personalized assistance to students needing extra help.</li>
+        <li>Coached students on delivering effective team presentations and collaborating efficiently on group projects.</li>
+        <li>Adapted daily tasks to support changing student goals and enhance program outcomes.</li>
+      </ul>`,
     },
   ],
   education: [
@@ -200,6 +219,27 @@ airdropper contract.</li>
       ],
       links: [],
       image: "/skylinetravel-dashboard.webp",
+    },
+    {
+      title: "Skyline Education",
+      active: true,
+      description:
+        "A platform offering university admissions services in Turkey, including information on private and government universities, majors, and scholarships.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "TailwindCSS",
+        "Shadcn UI",
+        "next-intl",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://skylineistedu.com/en",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/skyline-education.webp",
     },
     {
       title: "Skyline Mimarlik",

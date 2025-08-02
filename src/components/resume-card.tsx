@@ -55,8 +55,8 @@ export const ResumeCard = ({
         </div>
         <div className="flex-grow ml-4 items-center flex-col group">
           <CardHeader>
-            <div className="flex items-center justify-between gap-x-2 text-base">
-              <h3 className="inline-flex items-center justify-center font-semibold leading-none text-xs sm:text-sm">
+            <div className="flex items-center justify-between gap-x-2 text-base max-sm:flex-col-reverse max-sm:items-start">
+              <h3 className="inline-flex items-center justify-center font-semibold leading-none text-sm sm:text-base">
                 {title}
                 {badges && (
                   <span className="inline-flex gap-x-1">
@@ -82,8 +82,12 @@ export const ResumeCard = ({
                 {period}
               </div>
             </div>
-            {subtitle && <div className="font-sans text-xs">{subtitle}</div>}
-            {location && <div className="text-xs sm:text-sm">{location}</div>}
+            {subtitle && (
+              <div className="font-sans text-sm">
+                {subtitle} - {location}
+              </div>
+            )}
+            {/* {location && <div className="text-xs sm:text-sm">{location}</div>} */}
           </CardHeader>
           {description && (
             <motion.div
